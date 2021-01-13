@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cards.pay</groupId>
+  <artifactId>paycardsrecognizer</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>Paycardsrecognizer</name>
+  <description>Automatic recognition of bank card data using built-in camera on Android devices.</description>
+  <url>https://github.com/faceterteam/PayCards_Android</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>faceterteam</id>
+      <name>Mobile Money Solutions Oy</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/faceterteam/PayCards_Android.git</connection>
+    <developerConnection>scm:git:git@github.com:faceterteam/PayCards_Android.git</developerConnection>
+    <url>https://github.com/faceterteam/PayCards_Android</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.1.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.device.yearclass</groupId>
+      <artifactId>yearclass</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
